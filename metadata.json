@@ -1,0 +1,8 @@
+{
+  "name": "Copy of MEDHASHA VR",
+  "description": "A next-gen virtual aerobic exercise platform with real-time AI pose detection, neon skeletal visualization, and intelligent coaching.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
