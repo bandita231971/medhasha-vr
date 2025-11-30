@@ -1,7 +1,8 @@
 import { GoogleGenAI } from "@google/genai";
 import { SessionStats, ExerciseType } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const apiKey = import.meta.env.GEMINI_API_KEY || 'AIzaSyCUWIAJK_TedOwMpR3WtXY3RheQzKYz9kg';
+const ai = new GoogleGenAI({ apiKey });
 
 export const generateCoachingTip = async (
   exercise: ExerciseType,
